@@ -25,7 +25,7 @@
         }
       ]
     },
-    "include": ["src", "typings.d.ts", "tsconfig.json"],
+    "include": ["src", "typings.d.ts"],
     "exclude": ["node_modules", "dist", "rollup.config.js"]
   }
   

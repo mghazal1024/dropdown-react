@@ -1,4 +1,5 @@
 import React, { FC, useState, useRef, useEffect} from 'react'
+import './styles.scss'
 
 interface DropdownProps {
     list: [],
@@ -8,7 +9,7 @@ interface DropdownProps {
     handleSelection(data: string): any;
 }
 
-const Dropdown: FC<DropdownProps> = ({list, name, handleSelection, initialValue, reset}) => {
+const App: FC<DropdownProps> = ({list, name, handleSelection, initialValue, reset}) => {
 
     // STATES
     const [dropdownActive, setDropdownActive] = useState(false);
@@ -67,4 +68,33 @@ const Dropdown: FC<DropdownProps> = ({list, name, handleSelection, initialValue,
     )
 }
 
-export default Dropdown
+export default App
+
+
+// import React, { ReactNode } from "react"
+// import "./styles.scss"
+
+// export type ButtonProps = {
+//   variant: "primary" | "success" | "warning" | "danger"
+//   size: "small" | "medium" | "large"
+//   label: ReactNode
+//   onClick: React.MouseEventHandler<HTMLButtonElement>
+// }
+
+// const App = ({
+//   variant = "primary",
+//   size = "medium",
+//   label,
+//   onClick,
+// }: ButtonProps) => {
+//   let className = ""
+//   className = "spunky_button " + variant + " " + size
+
+//   return (
+//     <button className={className} onClick={onClick}>
+//       {label}
+//     </button>
+//   )
+// }
+
+// export default App
