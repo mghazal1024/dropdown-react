@@ -1,0 +1,42 @@
+{
+  "name": "dropdown-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mghazal1024/dropdown-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mghazal1024/dropdown-react/issues"
+  },
+  "homepage": "https://github.com/mghazal1024/dropdown-react#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "sass": "^1.53.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": "^16.13.0||^17||^18",
+    "react-dom": "^16.13.0 || ^17||^18"
+  }
+}
